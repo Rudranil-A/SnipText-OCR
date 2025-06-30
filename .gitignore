@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Output and temp
+output/
+*.log

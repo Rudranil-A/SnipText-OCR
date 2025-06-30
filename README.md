@@ -1,2 +1,38 @@
-# SnipText-OCR
-SnipText is a simple desktop app to take screenshots, perform OCR using Tesseract, and export extracted text to Word (.docx) format. Built with PyQt6 and Python. Clean interface, accurate text recognition, and easy save options.
+\# SnipText OCR Tool
+
+
+
+A Python-PyQt6 based app for taking screenshots and extracting text using Tesseract OCR.
+
+
+
+\## Features
+
+\- Screenshot snipping
+
+\- OCR extraction
+
+\- Save as `.docx`
+
+
+
+\## Requirements
+
+\- Python 3.11+
+
+\- Tesseract installed at `C:\\Program Files\\Tesseract-OCR\\tesseract.exe`
+
+\- Dependencies: PyQt6, pytesseract, numpy, Pillow, python-docx
+
+
+
+\## Setup
+
+```bash
+
+pip install -r requirements.txt
+
+python SnipText.py
+
+
+
